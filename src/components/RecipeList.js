@@ -4,14 +4,16 @@ import Recipe from './Recipe';
 function RecipeList({ recipes }) {
 
 	return (
-		<>
+		<div className="recipe-list">
 			<div>
 				{recipes.map(recipe => {
 					return <Recipe key={recipe.id} {...recipe} />
 				})}
 			</div>
-			<button>Add Recipe</button>
-		</>
+			<div className="recipe-list__add-recipe-btn-container">
+				<button className="btn btn--primary">Add Recipe</button>
+			</div>
+		</div>
 	);
 }
 
