@@ -16,3 +16,13 @@
 .btn--primary:hover {
 	background-color: lightblue;
 }
+
+
+.btn--danger {
+	color: #fff;
+	background-color: red;
+}
+
+.btn--danger:hover {
+	background-color: orange;
+}

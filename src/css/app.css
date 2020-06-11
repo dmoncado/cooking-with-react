@@ -1,5 +1,7 @@
 @import-normalize;
 @import './recipe-list.css';
+@import './recipe.css';
+@import './ingredient-list.css';
 @import './buttons.css';
 
 *, *::before, *::after {
@@ -10,4 +12,8 @@
 body {
 	margin: 0;
 	padding: 0;
+}
+
+.mr-1 {
+	margin-right: 5px;
 }
